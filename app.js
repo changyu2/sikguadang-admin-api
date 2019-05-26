@@ -21,6 +21,7 @@ mongoose.set('useFindAndModify', false);
 const authorsRouter = require('./routes/sikguadang/authorsRouter');
 const noticesRouter = require('./routes/sikguadang/noticesRouter');
 const inquiriesRouter = require('./routes/sikguadang/inquiriesRouter');
+const ordersRouter = require('./routes/sikguadang/ordersRouter');
 const imagesRouter = require('./routes/sikguadang/imagesRouter');
 const storesRouter = require('./routes/sikguadang/storesRouter');
 const articlesRouter = require('./routes/sikguadang/articlesRouter');
@@ -84,6 +85,7 @@ mongoose.connect(config.mongodb.url, {
 app.use('/v1/authors/', authorsRouter);
 app.use('/v1/notices/', noticesRouter);
 app.use('/v1/inquiries', inquiriesRouter);
+app.use('/v1/orders', ordersRouter);
 app.use('/v1/images/', imagesRouter);
 app.use('/v1/stores/', storesRouter);
 app.use('/v1/articles/', articlesRouter);

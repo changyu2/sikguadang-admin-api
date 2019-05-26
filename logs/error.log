@@ -805,3 +805,26 @@
 2019-05-23 19:08:59.411 INFO env : local
 2019-05-23 19:08:59.413 INFO log level : debug
 2019-05-23 19:09:01.589 INFO Connected to mongod server
+2019-05-26 12:57:24.630 ERROR uncaughtException: Cannot find module '../../../models/documents/sikguadang/ordersDocument'
+	{"date":"Sun May 26 2019 12:57:24 GMT+0900 (GMT+09:00)","process":{"pid":22926,"uid":501,"gid":20,"cwd":"/Users/changyu/Documents/dev/sikguadang-admin-api","execPath":"/usr/local/bin/node","version":"v10.15.1","argv":["/usr/local/bin/node","/Users/changyu/Documents/dev/sikguadang-admin-api/bin/www"],"memoryUsage":{"rss":64208896,"heapTotal":62205952,"heapUsed":28105984,"external":18462494}},"os":{"loadavg":[2.6748046875,2.24658203125,2.15380859375],"uptime":93172},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":581,"method":"_resolveFilename","native":false},{"column":25,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":507,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false},{"column":24,"file":"/Users/changyu/Documents/dev/sikguadang-admin-api/routes/sikguadang/ordersRouter.js","function":null,"line":5,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":689,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":700,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":599,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":538,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":530,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false},{"column":22,"file":"/Users/changyu/Documents/dev/sikguadang-admin-api/app.js","function":null,"line":24,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":689,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":700,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":599,"method":"load","native":false}],"stack":["Error: Cannot find module '../../../models/documents/sikguadang/ordersDocument'","    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)","    at Function.Module._load (internal/modules/cjs/loader.js:507:25)","    at Module.require (internal/modules/cjs/loader.js:637:17)","    at require (internal/modules/cjs/helpers.js:22:18)","    at Object.<anonymous> (/Users/changyu/Documents/dev/sikguadang-admin-api/routes/sikguadang/ordersRouter.js:5:24)","    at Module._compile (internal/modules/cjs/loader.js:689:30)","    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)","    at Module.load (internal/modules/cjs/loader.js:599:32)","    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)","    at Function.Module._load (internal/modules/cjs/loader.js:530:3)","    at Module.require (internal/modules/cjs/loader.js:637:17)","    at require (internal/modules/cjs/helpers.js:22:18)","    at Object.<anonymous> (/Users/changyu/Documents/dev/sikguadang-admin-api/app.js:24:22)","    at Module._compile (internal/modules/cjs/loader.js:689:30)","    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)","    at Module.load (internal/modules/cjs/loader.js:599:32)"]}
+2019-05-26 12:59:26.580 INFO env : local
+2019-05-26 12:59:26.581 INFO log level : debug
+2019-05-26 12:59:30.013 INFO Connected to mongod server
+2019-05-26 16:51:15.682 INFO env : local
+2019-05-26 16:51:15.683 INFO log level : debug
+2019-05-26 16:51:26.479 INFO Connected to mongod server
+2019-05-26 16:59:55.429 INFO env : local
+2019-05-26 16:59:55.430 INFO log level : debug
+2019-05-26 16:59:58.069 INFO Connected to mongod server
+2019-05-26 17:08:11.041 INFO env : local
+2019-05-26 17:08:11.041 INFO log level : debug
+2019-05-26 17:08:15.726 INFO Connected to mongod server
+2019-05-26 17:15:22.478 INFO env : local
+2019-05-26 17:15:22.479 INFO log level : debug
+2019-05-26 17:15:26.198 INFO Connected to mongod server
+2019-05-26 17:16:14.308 INFO env : local
+2019-05-26 17:16:14.309 INFO log level : debug
+2019-05-26 17:16:19.242 INFO Connected to mongod server
+2019-05-26 22:04:13.817 INFO env : local
+2019-05-26 22:04:13.818 INFO log level : debug
+2019-05-26 22:04:16.106 INFO Connected to mongod server
