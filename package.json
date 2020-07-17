@@ -19,7 +19,7 @@
     "js-base64": "^2.5.1",
     "jwt-simple": "^0.5.5",
     "less-middleware": "^3.0.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "mongoose": "^5.5.3",
     "mongoose-auto-increment": "^5.0.1",
